@@ -33,7 +33,7 @@ function App() {
 		}
 	}, [windowSize]);
 	return (
-		<div className="overflow-x-hidden overflow-y-auto font-sora h-screen px-4 py-8 bg-gradient-to-b   dark:from-purple-900 dark:to-purple-600 from-white to-purple-500 dark:text-white text-black md:px-[40px]">
+		<div className="overflow-x-hidden overflow-y-auto font-sora h-screen px-4 py-8 bg-gradient-to-b dark:from-purple-900 dark:to-purple-600 from-white to-purple-500 dark:text-white text-black md:px-[40px]">
 			<Navbar isMobile={isMobile} />
 			<Slogan />
 			<Content />

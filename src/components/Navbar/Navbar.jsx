@@ -21,14 +21,18 @@ export default function Navbar(props) {
 						size="22px"
 						color="#FBDF07"
 						className="cursor-pointer"
-						onClick={() => {toggleDarkMode(!isDarkMode)}}
+						onClick={() => {
+							toggleDarkMode(!isDarkMode);
+						}}
 					/>
 				) : (
 					<BsEmojiSunglassesFill
 						size="22px"
 						color="#FBDF07"
 						className="cursor-pointer"
-						onClick={() => {toggleDarkMode(!isDarkMode)}}
+						onClick={() => {
+							toggleDarkMode(!isDarkMode);
+						}}
 					/>
 				)}
 			</div>
